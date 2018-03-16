@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e39b88-f740-42c1-ad41-b0232a8da44c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/DisconnectMessage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/ForwardedMessage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/Hub.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/ResetSignal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/common/StatusMessage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/chat/ChatRoomServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/netgame/chat/ChatRoomWindow.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,12 +79,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusMessage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatusMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/netgame/common/StatusMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatRoomServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/netgame/chat/ChatRoomServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatRoomWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/netgame/chat/ChatRoomWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3705">
+              <caret line="247" column="1" lean-forward="false" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6707#6871#0" expanded="true" />
+                <element signature="e#6870#6871#0" expanded="true" />
+                <element signature="e#6882#7929#0" expanded="true" />
+                <element signature="e#7928#7929#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/netgame/common/Hub.java" />
         <option value="$PROJECT_DIR$/src/netgame/common/ResetSignal.java" />
         <option value="$PROJECT_DIR$/src/netgame/common/StatusMessage.java" />
+        <option value="$PROJECT_DIR$/src/netgame/chat/ChatRoomServer.java" />
+        <option value="$PROJECT_DIR$/src/netgame/chat/ChatRoomWindow.java" />
       </list>
     </option>
   </component>
@@ -161,7 +188,14 @@
               <item name="SECA_HW004" type="b2602c69:ProjectViewProjectNode" />
               <item name="SECA_HW004" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="netgame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SECA_HW004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SECA_HW004" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="netgame" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,6 +268,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="78" width="1366" height="796" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -247,7 +282,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -323,9 +358,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/netgame/common/StatusMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netgame/chat/ChatRoomServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netgame/chat/ChatRoomWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3705">
+          <caret line="247" column="1" lean-forward="false" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6707#6871#0" expanded="true" />
+            <element signature="e#6870#6871#0" expanded="true" />
+            <element signature="e#6882#7929#0" expanded="true" />
+            <element signature="e#7928#7929#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
